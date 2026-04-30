@@ -2,12 +2,26 @@
   "name": "@adacircuit/claude-changelog",
   "version": "0.1.0",
   "type": "module",
-  "bin": { "claude-changelog": "./dist/cli.js" },
+  "bin": {
+    "claude-changelog": "./dist/cli.js"
+  },
   "scripts": {
     "build": "bun build src/cli.ts --outdir dist --target node",
     "prepublishOnly": "bun run build"
   },
-  "keywords": ["claude","anthropic","ai","cli","developer-tools"],
+  "keywords": [
+    "claude",
+    "anthropic",
+    "ai",
+    "cli",
+    "developer-tools"
+  ],
   "license": "MIT",
-  "dependencies": { "@anthropic-ai/sdk": "^0.39.0" }
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dolphin278/claude-changelog.git"
+  }
 }
