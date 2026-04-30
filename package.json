@@ -1,5 +1,5 @@
 {
-  "name": "claude-changelog",
+  "name": "@adacircuit/claude-changelog",
   "version": "0.1.0",
   "type": "module",
   "bin": { "claude-changelog": "./dist/cli.js" },
