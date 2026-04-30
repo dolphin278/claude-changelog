@@ -1,0 +1,13 @@
+{
+  "name": "claude-changelog",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": { "claude-changelog": "./dist/cli.js" },
+  "scripts": {
+    "build": "bun build src/cli.ts --outdir dist --target node",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": ["claude","anthropic","ai","cli","developer-tools"],
+  "license": "MIT",
+  "dependencies": { "@anthropic-ai/sdk": "^0.39.0" }
+}
